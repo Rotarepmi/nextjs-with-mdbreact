@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-with-mdbreact",
+  "version": "4.10.0",
+  "description": "Integration example for MDBReact and Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Jakub Mandra",
+  "license": "ISC",
+  "dependencies": {
+    "mdbreact": "file:mdbreact-4.10.0.tgz",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
