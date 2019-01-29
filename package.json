@@ -2,17 +2,22 @@
   "name": "nextjs-with-mdbreact",
   "version": "4.10.0",
   "description": "Integration example for MDBReact and Next.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "author": "Jakub Mandra",
   "license": "ISC",
   "dependencies": {
-    "mdbreact": "file:mdbreact-4.10.0.tgz",
+    "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.4",
+    "mdbreact": "4.10.0",
     "next": "^7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-fonts": "^0.17.0",
+    "next-images": "^1.0.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   }
