@@ -3459,9 +3459,10 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
-"mdbreact@file:mdbreact-4.10.0.tgz":
+mdbreact@4.10.0:
   version "4.10.0"
-  resolved "file:mdbreact-4.10.0.tgz#3d0af9b752e4f3514d19e93678d719acb61576e8"
+  resolved "https://registry.yarnpkg.com/mdbreact/-/mdbreact-4.10.0.tgz#f1529eea0490989883133367ebc589bc7b834c0e"
+  integrity sha512-x3cFDYjYp2CA9/Qo4yW0bB6S3POLERlUzYmt3E0Lp24UmBxpMGAyTnXv0J1KGTJkHv7pzfrKCohurN1JX7O5lw==
   dependencies:
     "@date-io/moment" "0.0.2"
     "@fortawesome/fontawesome-free" "^5.6.3"
