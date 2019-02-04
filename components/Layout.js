@@ -1,4 +1,3 @@
-import withStyles from './withStylesHOC';
 import Link from 'next/link';
 import {
   MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBFormInline,
@@ -20,7 +19,6 @@ class Layout extends React.Component {
   render() {
     return (
       <React.Fragment>
-
         <MDBNavbar color="indigo" dark expand="md">
           <MDBNavbarBrand>
             <strong className="white-text">Navbar</strong>
@@ -72,4 +70,4 @@ class Layout extends React.Component {
   }
 }
 
-export default withStyles(Layout);
+export default Layout;

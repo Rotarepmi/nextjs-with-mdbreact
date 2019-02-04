@@ -1,8 +1,7 @@
-import Layout from '../components/Layout';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBInput, MDBCol, MDBRow } from "mdbreact";
 
 const Example = () => (
-  <Layout>
+  <React.Fragment>
     <MDBRow className="mt-5">
       <MDBCol md="6" className="mx-auto">
         <MDBCard>
@@ -55,7 +54,7 @@ const Example = () => (
         </MDBCard>
       </MDBCol>
     </MDBRow>
-  </Layout>
+  </React.Fragment>
 );
 
 export default Example; 
